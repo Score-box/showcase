@@ -23,7 +23,7 @@ Web development
 Create a new branch :
 
 ```git branch myFeature```  
-````git checkout myFeature```
+```git checkout myFeature```
 
 ```cd app```
 
