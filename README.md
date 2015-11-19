@@ -5,7 +5,8 @@ if you don't have grunt :
 
 ```npm install -g grunt-cli```
 
-```git clone https://github.com/Score-box/showcase.git```
+```git clone https://github.com/Score-box/showcase.git```  
+```git checkout dev```
 
 ```cd showcase```
 
@@ -19,6 +20,10 @@ this operation might be a bit long, wait until everything is installed
 
 Web development
 ------
+Create a new branch :
+
+```git branch myFeature```  
+````git checkout myFeature```
 
 ```cd app```
 
