@@ -1,4 +1,5 @@
 Installation
+------
 
 if you don't have grunt :
 
@@ -15,3 +16,10 @@ this operation might be a bit long, wait until everything is installed
 ```bower install```
 
 ```grunt serve```
+
+Web development
+------
+
+```cd app```
+
+Everything web related is in the app folder
