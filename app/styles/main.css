@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -7,7 +14,7 @@
 
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   padding-bottom: 20px;
 }
 
@@ -87,3 +94,85 @@ body {
     border-bottom: 0;
   }
 }
+
+/***************************************************************************/
+
+
+
+li i{
+	margin-right: 3px;
+	
+}
+
+
+.navbar-default {background-color: #ffffff;}
+
+.navbar-brand {padding-top: 0;}
+.navbar-brand img {max-height: 50px;}
+
+
+
+
+
+.pad-md-top {padding-top: 40px;}
+.pad-md-bot {padding-bottom: 40px;}
+.pad-lg-top {padding-top: 75px;}
+
+
+.banner {
+	background-image: url(../images/summer-sky.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+ 	min-height: 550px;
+	overflow: hidden;
+	
+ 	margin: 0 auto;
+}
+/*
+.banner:before {
+  content: "";
+  display: block;
+  padding-bottom: 50%;
+}*/
+
+/*Intrinsic ratio*/
+.FlexEmbed {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.FlexEmbed-ratio--2by1 {
+  padding-bottom: 50%;
+}
+
+
+.grey-sec {background-color: #f5f5f5;}
+.grey-sec .fa {color: #fe7377; font-size: 2.5em;}
+
+.white-sec {background-color: #ffffff;}
+
+.logo-md {width:50px; height: 50px;}
+
+.back-try {
+	background-image: url(../images/5a.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 344px;
+	overflow: hidden;
+}
+.back-try:first-child, .back-try:nth-child(2) {margin-right: 2%;} 
+.back-try h3 {padding-top: 50%;}
+
+
+/*
+.fullgrown {
+	height: 100%;
+	position: relative;
+	
+}
+.my-bot {
+	position: absolute;
+	transform: translateY(100%);
+}*/
+
